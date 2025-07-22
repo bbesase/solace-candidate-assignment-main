@@ -5,7 +5,7 @@ interface AdvocatesTableHeaderCellProps {
   sortDirection?: "asc" | "desc";
 }
 
-export default function AdvocatesTableHeaderCell({
+export default function AdvocatesTableHeaderCellDesktop({
   column,
   onHeaderClick,
   sortColumn,

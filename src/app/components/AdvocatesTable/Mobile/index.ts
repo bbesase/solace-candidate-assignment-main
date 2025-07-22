@@ -1,0 +1,1 @@
+export { default as MobilePlaceholder } from "./MobilePlaceholder";
