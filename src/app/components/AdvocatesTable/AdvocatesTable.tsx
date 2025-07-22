@@ -40,9 +40,9 @@ export default function AdvocatesTable({ advocates, loadedFilteredAdvocates }: A
     setFilteredAdvocates(advocates);
   }
 
-  const sortAdvocates = (data: Advocate[]) =>{
-    if (!sortColumn) return data;
-    return [...data].sort((a, b) => {
+  const sortAdvocates = (sortedAdvocate: Advocate[]) =>{
+    if (!sortColumn) return sortedAdvocate;
+    return [...sortedAdvocate].sort((a, b) => {
       let aValue = a[sortColumn as keyof Advocate];
       let bValue = b[sortColumn as keyof Advocate];
 
