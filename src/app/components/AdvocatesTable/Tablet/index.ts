@@ -1,0 +1,1 @@
+export { default as TabletPlaceholder } from "./TabletPlaceholder";
