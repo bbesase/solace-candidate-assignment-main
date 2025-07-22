@@ -1,5 +1,5 @@
 import { Advocate } from "../../types/advocates";
-import AdvocatesTableSpecialties from "./AdvocatesTableSpecialties";
+import {AdvocatesTableSpecialties} from "./index";
 
 interface TableRowProps {
   advocate: Advocate;
